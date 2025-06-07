@@ -1,0 +1,5 @@
+pytesseract
+pdfplumber
+pillow
+opencv-python
+Pymupdf

@@ -1,0 +1,55 @@
+{
+  "invoice_number": "INV-43071",
+  "invoice_date": "20/02/2025",
+  "supplier": {
+    "name": "GLOBAL TECH SOLUTIONS LTD."
+  },
+  "bill_to": "Tech Innovations Inc.\n\nAttn: Procurement Department\n789 Silicon Avenu",
+  "items": [
+    {
+      "item_code": null,
+      "description": "Backend API Integration",
+      "quantity": 120,
+      "unit_price": 165.0,
+      "total_price": 19800.0,
+      "po_number": null
+    },
+    {
+      "item_code": null,
+      "description": "e Cloud Infrastructure Setup",
+      "quantity": 40,
+      "unit_price": 185.0,
+      "total_price": 7400.0,
+      "po_number": null
+    },
+    {
+      "item_code": null,
+      "description": "e Security Audit and Implementation",
+      "quantity": 35,
+      "unit_price": 195.0,
+      "total_price": 6825.0,
+      "po_number": null
+    },
+    {
+      "item_code": null,
+      "description": "Project Management",
+      "quantity": 45,
+      "unit_price": 125.0,
+      "total_price": 5625.0,
+      "po_number": null
+    }
+  ],
+  "subtotal": 51250.0,
+  "vat": 10250.0,
+  "total": 51250.0,
+  "payment_details": {
+    "Payment Details": "",
+    "Bank": "Barclays Bank",
+    "Account Name": "Global Tech Solutions Ltd",
+    "Sort Code": "20-00-00",
+    "Account Number": "12345678",
+    "IBAN": "GB29 BARC 2000 0012 3456 78",
+    "SWIFT/BIC": "BARCGB22",
+    "Terms & Conditions": ""
+  }
+}

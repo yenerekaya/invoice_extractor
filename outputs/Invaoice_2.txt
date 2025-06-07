@@ -1,0 +1,121 @@
+GLOBAL TECH SOLUTIONS LTD.
+Unit 7, Industrial Park
+London, UK EC1A 1BB
+VAT: GB123456789
+Phone: +44 20 7123 4567
+Invoice Date: 20/02/2025
+Invoice Number: INV-53470
+Customer ID: CUST-5503
+Bill To:
+Tech Innovations Inc.
+123 Business Avenue
+New York, NY 10001
+USA
+Tax ID: US987654321
+Item Details:
+PRD-5976 Power Supply Qty: 39 Price: $479.1 Total: $18684.9 PO: PO-
+526365
+PRD-8211 Motherboard Qty: 32 Price: $107.79 Total: $3449.28 PO: PO-
+526365
+PRD-9055 Microprocessor Qty: 28 Price: $128.72 Total: $3604.16 PO:
+PO-526365
+PRD-5064 SSD Drive Qty: 34 Price: $234.81 Total: $7983.54 PO: PO-
+526365
+PRD-6326 USB Controller Qty: 29 Price: $131.23 Total: $3805.67 PO:
+PO-526365
+PRD-8572 USB Controller Qty: 4 Price: $108.52 Total: $434.08 PO: PO-
+526365
+PRD-8419 USB Controller Qty: 7 Price: $102.66 Total: $718.62 PO: PO-
+526365
+PRD-2738 Network Card Qty: 24 Price: $285.41 Total: $6849.84 PO: PO-
+360206
+PRD-1771 Cooling Fan Qty: 15 Price: $441.63 Total: $6624.45 PO: PO-
+360206
+PRD-1238 Graphics Card Qty: 9 Price: $324.29 Total: $2918.61 PO: PO-
+360206
+PRD-2225 Graphics Card Qty: 24 Price: $262.26 Total: $6294.24 PO: PO-
+360206
+PRD-1372 USB Controller Qty: 19 Price: $45.72 Total: $868.68 PO: PO-
+360206
+PRD-6208 USB Controller Qty: 3 Price: $160.93 Total: $482.79 PO: PO-
+360206
+PRD-5513 Microprocessor Qty: 45 Price: $428.3 Total: $19273.5 PO: PO-
+360206
+PRD-4588 Memory Module Qty: 39 Price: $205.12 Total: $7999.68 PO: PO-
+620097
+PRD-7942 Power Supply Qty: 19 Price: $48.05 Total: $912.95 PO: PO-
+620097
+PRD-9459 Cooling Fan Qty: 16 Price: $336.13 Total: $5378.08 PO: PO-
+620097
+PRD-8913 Network Card Qty: 22 Price: $489.96 Total: $10779.12 PO: PO-
+620097
+PRD-6575 USB Controller Qty: 9 Price: $134.91 Total: $1214.19 PO: PO-
+620097
+PRD-5309 Memory Module Qty: 41 Price: $152.23 Total: $6241.43 PO: PO-
+620097
+PRD-2463 Motherboard Qty: 48 Price: $155.39 Total: $7458.72 PO: PO-
+620097
+PRD-4967 Power Supply Qty: 19 Price: $268.47 Total: $5100.93 PO: PO-
+756014
+PRD-1769 Motherboard Qty: 20 Price: $113.63 Total: $2272.6 PO: PO-
+756014
+PRD-2649 Memory Module Qty: 14 Price: $459.39 Total: $6431.46 PO: PO-
+756014
+PRD-4113 Microprocessor Qty: 19 Price: $56.26 Total: $1068.94 PO: PO-
+756014
+PRD-4823 USB Controller Qty: 26 Price: $310.99 Total: $8085.74 PO:
+PO-756014
+PRD-8435 Power Supply Qty: 41 Price: $312.75 Total: $12822.75 PO: PO-
+756014
+PRD-9612 Microprocessor Qty: 23 Price: $301.65 Total: $6937.95 PO:
+PO-756014
+PRD-3310 Microprocessor Qty: 37 Price: $31.8 Total: $1176.6 PO: PO-
+842742
+PRD-7041 Memory Module Qty: 47 Price: $402.38 Total: $18911.86 PO:
+PO-842742
+PRD-1167 Network Card Qty: 36 Price: $172.19 Total: $6198.84 PO: PO-
+842742
+PRD-1991 Memory Module Qty: 30 Price: $287.34 Total: $8620.2 PO: PO-
+842742
+PRD-7450 Memory Module Qty: 46 Price: $200.1 Total: $9204.6 PO: PO-
+842742
+PRD-8062 Graphics Card Qty: 10 Price: $150.36 Total: $1503.6 PO: PO-
+842742
+PRD-3574 Cooling Fan Qty: 49 Price: $365.46 Total: $17907.54 PO: PO-
+842742
+PRD-3154 Microprocessor Qty: 26 Price: $247.35 Total: $6431.1 PO: PO-
+362820
+PRD-5950 Cooling Fan Qty: 33 Price: $395.16 Total: $13040.28 PO: PO-
+362820
+PRD-8988 SSD Drive Qty: 48 Price: $411.78 Total: $19765.44 PO: PO-
+362820
+PRD-9909 HDMI Cable Qty: 13 Price: $317.08 Total: $4122.04 PO: PO-
+362820
+PRD-4267 HDMI Cable Qty: 48 Price: $349.07 Total: $16755.36 PO: PO-
+362820
+PRD-7856 Power Supply Qty: 5 Price: $348.2 Total: $1741.0 PO: PO-
+362820
+PRD-4683 Power Supply Qty: 29 Price: $268.37 Total: $7782.73 PO: PO-
+362820
+PRD-7453 HDMI Cable Qty: 22 Price: $242.68 Total: $5338.96 PO: PO-
+526365
+PRD-9473 Microprocessor Qty: 28 Price: $217.33 Total: $6085.24 PO:
+PO-526365
+PRD-7092 SSD Drive Qty: 13 Price: $123.21 Total: $1601.73 PO: PO-
+526365
+PRD-5621 Graphics Card Qty: 1 Price: $429.35 Total: $429.35 PO: PO-
+526365
+PRD-2818 Graphics Card Qty: 36 Price: $123.4 Total: $4442.4 PO: PO-
+526365
+PRD-3978 Cooling Fan Qty: 49 Price: $281.1 Total: $13773.9 PO: PO-
+526365
+PRD-2599 USB Controller Qty: 37 Price: $58.92 Total: $2180.04 PO: PO-
+526365
+PRD-7695 Microprocessor Qty: 31 Price: $431.01 Total: $13361.31 PO:
+PO-360206
+Subtotal: $11420.61
+VAT (20%): $2284.12
+Total Amount: $13704.73
+Payment Terms: Net 30
+Bank Details: IBAN: GB29 NWBK 6016 1331 9268 19
+Swift Code: NWBKGB2L
