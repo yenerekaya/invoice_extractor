@@ -95,7 +95,7 @@ def extract_data_from_text(text):
             if not item["po_number"]:
                 item["po_number"] = po_value
 
-    # ✅ Hizmet tipi itemlar için regex
+    # Hizmet tipi itemlar için regex
     service_regex = re.compile(
         r"(?P<description>[A-Za-z][A-Za-z0-9\s\-\&]{3,100}?)\s*Hours[:\s]*([0-9]+)\s*[x×]\s*Rate[:\s]*\$([0-9.,]+)[\s\S]*?Amount[:\s]*\$([0-9.,]+)",
         re.IGNORECASE
@@ -104,9 +104,8 @@ def extract_data_from_text(text):
         desc, qty, rate, amount = match
         desc = desc.strip()
 
-        # ❌ US987654321, DESCRIPTION gibi metinleri filtrele
-        if re.search(r'\bUS\d{9}\b', desc) or "DESCRIPTION" in desc.upper():
-            continue
+        # 🔧 Temizleme burada yapılacak
+        desc = re.sub(r"^(DESCRIPTION|US\d{9}|e|ITEM)\s+", "", desc, flags=re.IGNORECASE).strip()
 
         items.append({
             "item_code": None,
@@ -154,22 +153,34 @@ def generate_report(all_results, path):
     price_correct = 0
     po_found = 0
     po_total = 0
+    report_lines = []
 
     for invoice in all_results:
         for item in invoice["items"]:
             total_items += 1
+            # Fiyat doğruluğu
             calculated = round(item["quantity"] * item["unit_price"], 2)
             if abs(calculated - item["total_price"]) < 0.1:
                 price_correct += 1
+            else:
+                report_lines.append(f"Fiyat uyuşmazlığı: {item.get('item_code') or item.get('description') or 'Bilinmeyen ürün'}")
+
+            # PO doğruluğu
             if item["po_number"]:
                 po_found += 1
+            else:
+                report_lines.append(f"PO eksik: {item.get('item_code') or item.get('description') or 'Bilinmeyen ürün'}")
+
+        # Toplam PO sayısı (benzersiz)
         po_total += len(set([i["po_number"] for i in invoice["items"] if i["po_number"]]))
 
-    report = f"""
+    summary = f"""
 Toplam Kalem: {total_items}
 Fiyat Doğruluğu: {round(100 * price_correct / total_items, 2) if total_items else 0}%
 PO Doğruluğu: {round(100 * po_found / total_items, 2) if total_items else 0}%
 Toplam PO Sayısı: {po_total}
 """
+
+    # rapor dosyasına yaz
     with open(path, "w") as f:
-        f.write(report)
+        f.write(summary.strip() + "\n\n" + "\n".join(report_lines))
